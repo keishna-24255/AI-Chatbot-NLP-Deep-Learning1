@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! What can I do for you?",
+        "Hey! Nice to meet you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "See you",
+        "I have to go",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Bye! Take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "What should I call you?",
+        "Who am I talking to?"
+      ],
+      "responses": [
+        "I am your chatbot assistant.",
+        "You can call me ChatBot.",
+        "I'm a simple AI chatbot."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need help",
+        "Help me",
+        "What can you do?",
+        "How can you help me?"
+      ],
+      "responses": [
+        "I can answer simple questions and have a conversation with you.",
+        "Sure! Ask me something and I will try to help.",
+        "I'm here to help you."
+      ]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "What is college?",
+        "Tell me about college",
+        "What should I do in college?",
+        "How can I study better?"
+      ],
+      "responses": [
+        "Attend your classes regularly, practice your subjects, and work on projects.",
+        "Try to maintain a balance between academics, projects, and activities."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Tell me about Python",
+        "What is Python programming?",
+        "Why should I learn Python?"
+      ],
+      "responses": [
+        "Python is a popular programming language known for its simple syntax.",
+        "Python is widely used in web development, data science, AI, and automation."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "Tell me about machine learning",
+        "What is ML?",
+        "Explain machine learning"
+      ],
+      "responses": [
+        "Machine learning is a field of AI where computers learn patterns from data.",
+        "ML allows computers to make predictions or decisions using data."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "What is data science?",
+        "Tell me about data science",
+        "What does a data scientist do?",
+        "Explain data science"
+      ],
+      "responses": [
+        "Data science uses statistics, programming, and machine learning to extract useful information from data.",
+        "A data scientist analyzes data to find patterns and support decision making."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't understand",
+        "Can you answer this?",
+        "I have a question",
+        "Tell me something"
+      ],
+      "responses": [
+        "I'm still learning. Please try asking in a different way.",
+        "I'm not sure about that yet. Try another question.",
+        "Sorry, I don't know the answer to that."
+      ]
+    }
+  ]
+}
